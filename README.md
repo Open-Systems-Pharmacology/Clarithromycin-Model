@@ -1,8 +1,9 @@
 # Clarithromycin-Model
 Whole-body PBPK model of clarithromycin as CYP3A4 and P-gp DDI perpetrator drug 
 
-![Digoxin](https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png) 
-
+<p align="center">
+  <img src="https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png">
+</p>
 
 ## Repository files
 Within this repository, we distribute a whole-body PBPK model of clarithromycin, that has been carefully developed using a large number of clinical studies and evaluated within our DDI modeling network. 
