@@ -2,10 +2,11 @@
 
 
 
-| Version                         | 0.1                                                          |
+| Version                         | ?TODO?                                                       |
 | ------------------------------- | ------------------------------------------------------------ |
 | Repository                      | https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model |
+| Release                         | ?TODO?                                                       |
 | OSP Version                     | 8.0                                                          |
 | Qualification framework version | 2.1                                                          |
-| Author                          |                                                              |
+| Author                          | Laura Fuhr (LMFuhr)                                          |
 
