@@ -1,0 +1,497 @@
+{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Clarithromycin-Model",
+            "Path": "../../Clarithromycin-Model.json",
+            "BuildingBlocks": [],
+            "SimulationParameters": [
+                {
+                    "Project": "Clarithromycin-Model",
+                    "Simulation": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h",
+                    "Path": "Clarithromycin|P (blood cells->plasma)",
+                    "TargetSimulations": [
+                      "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d",
+                      "Clarithromycin po, Chu 1992, 100 mg",
+                      "Clarithromycin po, Chu 1992, 1200 mg",
+                      "Clarithromycin po, Chu 1992, 200 mg",
+                      "Clarithromycin po, Chu 1992, 400 mg",
+                      "Clarithromycin po, Chu 1992, 600 mg",
+                      "Clarithromycin po, Chu 1992, 800 mg",
+                      "Clarithromycin po, Chu 1993, 250 mg",
+                      "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d",
+                      "Clarithromycin po, Chu 1993, 500 mg",
+                      "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d",
+                      "Clarithromycin po, Kees 1995, 250 mg",
+                      "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d",
+                      "Clarithromycin po, Kees 1995, 500 mg",
+                      "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d",
+                      "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d"
+                    ]
+                  },
+                  {
+                    "Project": "Clarithromycin-Model",
+                    "Simulation": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h",
+                    "Path": "Clarithromycin|P (plasma->blood cells)",
+                    "TargetSimulations": [
+                      "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d",
+                      "Clarithromycin po, Chu 1992, 100 mg",
+                      "Clarithromycin po, Chu 1992, 1200 mg",
+                      "Clarithromycin po, Chu 1992, 200 mg",
+                      "Clarithromycin po, Chu 1992, 400 mg",
+                      "Clarithromycin po, Chu 1992, 600 mg",
+                      "Clarithromycin po, Chu 1992, 800 mg",
+                      "Clarithromycin po, Chu 1993, 250 mg",
+                      "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d",
+                      "Clarithromycin po, Chu 1993, 500 mg",
+                      "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d",
+                      "Clarithromycin po, Kees 1995, 250 mg",
+                      "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d",
+                      "Clarithromycin po, Kees 1995, 500 mg",
+                      "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d",
+                      "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d"
+                    ]
+                  }          
+            ]
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "AxesSettings": {
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "ComparisonTimeProfile": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Type": "X",
+                    "Dimension": "Age",
+                    "Unit": "year(s)",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AllPlots": [
+            {
+                "Project": "Clarithromycin-Model",
+                "Simulation": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h",
+                "SectionId": 331
+            },
+            {
+                "Project": "Clarithromycin-Model",
+                "Simulation": "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d",
+                "SectionId": 332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1992, 100 mg",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1992, 1200 mg",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1992, 200 mg",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1992, 400 mg",
+                "SectionId":  332
+            },           
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1992, 600 mg",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1992, 800 mg",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1993, 250 mg",
+                "SectionId":  331
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d",
+                "SectionId":  331
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1993, 500 mg",
+                "SectionId":  331
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d",
+                "SectionId":  331
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Kees 1995, 250 mg",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Kees 1995, 500 mg",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d",
+                "SectionId":  332
+            },
+            {
+                "Project":  "Clarithromycin-Model",
+                "Simulation":  "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d",
+                "SectionId":  332
+            }                                                                                                                                                                           
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plor for concentration in plasma",
+                "SectionId": 32,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "model building",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1991, 250 mg iv",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1993, 250 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1993, 250 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1993, 250 mg po MD",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1993, 500 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1993, 500 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1993, 500 mg po MD",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "model evaluation",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Abduljalil 2009, 500 mg po MD",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1992, 100 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1992, 100 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1992, 1200 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1992, 1200 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1992, 200 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1992, 200 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1992, 400 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1992, 400 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1992, 600 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1992, 600 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Chu 1992, 800 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chu 1992, 800 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Kees 1995, 250 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kees 1995, 250 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kees 1995, 250 mg po MD",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Kees 1995, 500 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kees 1995, 500 mg po",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kees 1995, 500 mg po MD",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Clarithromycin-Model",
+                                "Simulation": "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d",
+                                "Output": "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Rengelsh. 2003, 250 mg po MD",
+                                "Color": "#FF0000"
+                            }                                                                                                                                                                                                                                                
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "Clarithromycin-Model",
+            "Name": "Clarithromycin",
+            "Type": "Compound",
+            "SectionId": 31
+        },
+        {
+            "Project": "Clarithromycin-Model",
+            "Name": "Tablet Clarithromycin",
+            "Type": "Formulation",
+            "SectionId": 31
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Title": "2.1 Modeling Strategy",
+                    "Content": "Content/Section2.1_Modeling_Strategy.md"
+                },
+                {
+                    "Id": 22,
+                    "Title": "2.2 Data",
+                    "Content": "Content/Section2.2_Data.md"
+                },
+                {
+                    "Id": 23,
+                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Title": "3 Results and Discussion",
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Sections": [
+                {
+                    "Id": 31,
+                    "Title": "3.1 Final input parameters",
+                    "Content": "Content/Input_table.md"
+                },
+                {
+                    "Id": 32,
+                    "Title": "3.2 Diagnostics Plots",
+                    "Content": "Content/GOF_diagnostics.md"
+                },
+                {
+                    "Id": 33,
+                    "Title": "3.3 Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Sections": [
+                        {
+                            "Id": 331,
+                            "Title": "3.3.1 Model Building",
+                            "Content": "Content/Concentration_time_profiles_building.md"
+                        },
+                        {
+                            "Id": 332,
+                            "Title": "3.3.2 Model Verification",
+                            "Content": "Content/Concentration_time_profiles_verification.md"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Title": "4 Conclusion",
+            "Content": "Content/Section4_Conclusion.md"
+        },
+        {
+            "Id": 5,
+            "Title": "5 References",
+            "Content": "Content/References.md"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+The herein presented PBPK model adequately describes the pharmacokinetics of clarithromycin in adults. In particular, it applies increased transfer and accumulation in red blood cells, metabolism by CYP3A4, renal clearance as unchanged drug and mechanism-based inactivation of CYP3A4. Thus, the model is fit for purpose to be applied for the investigation of drug-drug interactions with regard to inhibition of CYP3A4 and P-gp.
+
