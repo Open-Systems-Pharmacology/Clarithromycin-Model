@@ -22,7 +22,7 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 ## License
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
-## Reference
+## References
 [1] [Moj D, Hanke N, Britz H, Frechen S, Kanacher T, Wendl T, Haefeli WE, Lehr T. Clarithromycin, Midazolam, and Digoxin: Application of PBPK Modeling to Gain New Insights into Drug-Drug Interactions and Co-medication Regimens. AAPS J. 2017 Jan;19(1):298-312.](https://dx.doi.org/10.1208/s12248-016-0009-9)
 
 [2] [Hanke N, Frechen S, Moj D, Britz H, Eissing T, Wendl T, Lehr T. PBPK models for CYP3A4 and P-gp DDI prediction: a modeling network of rifampicin, itraconazole, clarithromycin, midazolam, alfentanil and digoxin. CPT Pharmacometrics Syst Pharmacol. 2018 Oct;7(10):647-659.](https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1002/psp4.12343)
