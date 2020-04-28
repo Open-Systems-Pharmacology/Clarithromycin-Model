@@ -6,7 +6,7 @@ Unknown parameters (see below) were identified using the Parameter Identificatio
 
 The model was then verified by simulating the PK of additional clinical studies including a dose range of 100 to 1200 mg administered single or multiple doses.
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#2.2	Data).
+Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
-Details about the structural model and its parameters can be found in [Section 2.3](#2.3 Model Parameters and Assumptions).
+Details about the structural model and its parameters can be found in [Section 2.3](#23-Model-Parameters-and-Assumptions).
 
