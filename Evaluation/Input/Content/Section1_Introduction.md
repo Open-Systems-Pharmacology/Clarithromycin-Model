@@ -4,5 +4,5 @@ Clarithromycin is a widely prescribed macrolide antibiotic and a substrate and m
 
 Objectives were to develop a fully mechanistic PBPK model for clarithromycin, describing its metabolism by CYP3A4 and its mechanism-based inactivation of the respective enzyme as well as its inhibition of P-gp.
 
-The presented clarithromycin model was developed by Moj et al. ([Moj 2017](#5-References)) and revised by Hanke et al. ([Hanke 2018](#5-References)) and is publicly available on GitHub (https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model).
+The presented clarithromycin model was developed by Moj et al. ([Moj 2017](#5-References)) and revised by Hanke et al. ([Hanke 2018](#5-References)).
 
