@@ -2,9 +2,9 @@ The general workflow for building an adult PBPK model has been described by Kuep
 
 A typical European individual was used for the development of the clarithromycin model. The relative tissue-specific expression of CYP3A4 was implemented in accordance with literature information using the PK-Sim expression database RT-PCR profile. Enterohepatic recirculation was enabled as it is active under physiological conditions. 
 
-Unknown parameters (see below) were identified using the Parameter Identification module provided in PK-Sim®.
+Unknown parameters (see [Section 2.3.4](#234-Automated-Parameter-Identification)) were identified using the Parameter Identification module provided in PK-Sim®.
 
-The model was then verified by simulating the PK of additional clinical studies including a dose range of 100 to 1200 mg administered single or multiple doses.
+The model was then verified by simulating the PK of additional clinical studies including a dose range of 100 to 1200 mg administered as single dose or as multiple doses.
 
 Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
