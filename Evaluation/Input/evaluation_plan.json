@@ -1,9 +1,9 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Clarithromycin-Model",
-            "Path": "https://raw.githubusercontent.com/LMFuhr/Clarithromycin-Model/master/Clarithromycin-Model.json",
+            "Path": "../../Clarithromycin-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": [
                 {
