@@ -1,12 +1,12 @@
 **Abduljalil 2009** Abduljalil, K. et al. Modeling the autoinhibition of clarithromycin metabolism during repeated oral administration. Antimicrob. Agents Chemother. 53, 2892–901 (2009).
 
-**Chu 1992** Chu, S.Y. et al. Pharmacokinetics of clarithromycin, a new macrolide, after single ascending oral doses. Antimicrob. Agents Chemother. 36, 2447–53 (1992).
+**Chu 1992a** Chu, S.Y. et al. Pharmacokinetics of clarithromycin, a new macrolide, after single ascending oral doses. Antimicrob. Agents Chemother. 36, 2447–53 (1992).
 
-**Chu 1992a** Chu, S.Y., Deaton, R. & Cavanaugh, J. Absolute bioavailability of clarithromycin after oral administration in humans. Antimicrob. Agents Chemother. 36, 1147–50 (1992).
+**Chu 1992b** Chu, S.Y., Deaton, R. & Cavanaugh, J. Absolute bioavailability of clarithromycin after oral administration in humans. Antimicrob. Agents Chemother. 36, 1147–50 (1992).
 
-**Chu 1993** Chu, S. et al. Single- and multiple-dose pharmacokinetics of clarithromycin, a new macrolide antimicrobial. J. Clin. Pharmacol. 33, 719–26 (1993).
+**Chu 1993a** Chu, S. et al. Single- and multiple-dose pharmacokinetics of clarithromycin, a new macrolide antimicrobial. J. Clin. Pharmacol. 33, 719–26 (1993).
 
-**Chu 1993a** Chu, S.Y. et al. Effect of moderate or severe hepatic impairment on clarithromycin pharmacokinetics. J. Clin. Pharmacol. 33, 480–5 (1993).
+**Chu 1993b** Chu, S.Y. et al. Effect of moderate or severe hepatic impairment on clarithromycin pharmacokinetics. J. Clin. Pharmacol. 33, 480–5 (1993).
 
 **Davey 1991** Davey, P.G. The pharmacokinetics of clarithromycin and its 14-OH metabolite. J. Hosp. Infect. 19 Suppl A, 29–37 (1991).
 
