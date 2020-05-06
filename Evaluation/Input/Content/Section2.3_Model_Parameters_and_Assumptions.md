@@ -25,7 +25,7 @@ This is the result of the final parameter identification.
 | Model Parameter                                 | Optimized Value | Unit   |
 | ----------------------------------------------- | --------------- | ------ |
 | `kcat` (CYP3A4)                                 | 76.5            | 1/min  |
-| `Specific clearance` in process renal clearance | 100             | mL/min |
+| `Specific clearance` in process renal clearance | 0.87            | 1/min  |
 | `Specific intestinal permeability`              | 1.23 E-6        | dm/min |
 | `P (plasma->blood cells)`                       | 3.62 E-5        | dm/min |
 | `P (blood cells->plasma)`                       | 1.04 E-6        | dm/min |
