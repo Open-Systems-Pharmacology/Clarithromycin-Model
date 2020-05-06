@@ -24,8 +24,12 @@ A literature search was performed to collect available information on physiochem
 |                          | 1/min    | 0.0459                  | [Ito 2003](#5-References)       | Maximum inactivation rate measured in human liver microsomes for 4-hydroxylation of midazolam |
 |                          | 1/min    | 0.072                   | [Mayhew 2000](#5-References)    | Maximum inactivation rate measured in human liver microsomes |
 | P-gp K<sub>i</sub>       | µmol/L   | 4.1                     | [Eberl 2007](#5-References)     | Conc. for half-maximal inhibition                            |
+| OATP1B1 IC<sub>50</sub>  | µmol/L   | 5.3 ± 1.3<sup>b</sup>   | [Vermeer 2016](#5-References)   | Half-maximal inhibitory concentration                        |
+| OATP1B3 IC<sub>50</sub>  | µmol/L   | 14 ± 2<sup>b</sup>      | [Vermeer 2016](#5-References)   | Half-maximal inhibitory concentration                        |
 
 <sup>a</sup> denotes range of reported values
+
+<sup>b</sup> denotes mean ± standard error of the mean of the measurements (two assays, each performed in triplicate)
 
 
 

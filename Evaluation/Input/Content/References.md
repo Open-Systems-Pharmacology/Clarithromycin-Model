@@ -50,3 +50,4 @@
 
 **Seithel 2007** Seithel, A. et al. The influence of macrolide antibiotics on the uptake of organic anions and drugs mediated by OATP1B1 and OATP1B3. Drug Metab. Dispos. 35, 779–86 (2007).
 
+**Vermeer 2016** Vermeer, L. M., Isringhausen, C. D., Ogilvie, B. W., & Buckley, D. B. Evaluation of ketoconazole and its alternative clinical CYP3A4/5 inhibitors as inhibitors of drug transporters: the in vitro effects of ketoconazole, ritonavir, clarithromycin, and itraconazole on 13 clinically-relevant drug transporters. Drug Metab. Dispos. 44, 453–459 (2016).
