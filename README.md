@@ -1,10 +1,7 @@
 # Clarithromycin-Model
 Whole-body PBPK model of clarithromycin. 
 
-<p align="center">
-  <img src="Clarithromycin.png">
-</p> 
-
+<a title="Yikrazuul / Public domain" href="https://commons.wikimedia.org/wiki/File:Clarithromycin_structure.svg"><img width="256" alt="Clarithromycin structure" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Clarithromycin_structure.svg/256px-Clarithromycin_structure.svg.png"></a>
 
 
 This repository contains:
