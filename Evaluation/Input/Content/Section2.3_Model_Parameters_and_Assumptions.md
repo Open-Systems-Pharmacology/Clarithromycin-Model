@@ -18,7 +18,7 @@ K<sub>I</sub> and k<sub>inact</sub> to describe the mechanism-based inhibition o
 
 A kidney plasma clearance was implemented to describe the renal elimination of clarithromycin. The specific renal clearance was optimized during parameter identification.
 
-### 2.3.4	Automated Parameter Identification
+### 2.3.4 Automated Parameter Identification
 
 This is the result of the final parameter identification.
 
