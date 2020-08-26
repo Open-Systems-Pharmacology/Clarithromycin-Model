@@ -33,11 +33,11 @@ A literature search was performed to collect available information on physiochem
 
 
 
-### 2.2.2	Clinical Data
+### 2.2.2 Clinical Data
 
 A literature search was performed to collect available clinical data on clarithromycin in healthy adults. The clarithromycin model was developed using 17 clinical studies covering a dosing range from 100 to 1200 mg.
 
-#### 2.2.2.1	Model Building
+#### 2.2.2.1 Model Building
 
 The following studies were used for model building (training data):
 
@@ -46,7 +46,7 @@ The following studies were used for model building (training data):
 | [Chu 1992b](#5-References) | Healthy subjects with intravenous infusion of 250 mg over 45 min |
 | [Chu 1993a](#5-References) | Healthy subjects with oral administration of 250 or 500 mg as single dose or twice daily for 5 days |
 
-#### 2.2.2.2	Model Verification
+#### 2.2.2.2 Model Verification
 
 The following studies were used for model verification (test data):
 
