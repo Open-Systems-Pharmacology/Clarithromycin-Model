@@ -1,22 +1,89 @@
 {
-  "Version": 78,
-  "Individuals": [
+  "Version": 80,
+  "ExpressionProfiles": [
     {
-      "Name": "European (P-gp modified, CYP3A4 36 h)",
-      "Seed": 1745497687,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
         }
-      },
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "AADAC",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
       "Parameters": [
         {
           "Path": "AADAC|Reference concentration",
@@ -42,525 +109,193 @@
           "Unit": "h"
         },
         {
-          "Path": "ATP1A2|Reference concentration",
-          "Value": 0.39140774,
-          "Unit": "µmol/l",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "ATP1A2|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "ATP1A2|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "OATP1B1|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "OATP1B1|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "OATP1B1|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "OATP1B3|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "OATP1B3|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "OATP1B3|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
           "Value": 4.8717948718E-05
-        },
-        {
-          "Path": "Organism|Bone|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0062154033171
-        },
-        {
-          "Path": "Organism|Bone|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0326065214
-        },
-        {
-          "Path": "Organism|Bone|Intracellular|P-gp|Relative expression",
-          "Value": 0.0242518189
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
           "Value": 3.9743589744E-05
         },
         {
-          "Path": "Organism|Brain|Intracellular|ATP1A2|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00014166666667
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.026415244
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|P-gp|Relative expression",
-          "Value": 0.07608904
-        },
-        {
           "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
           "Value": 0.0011923076923
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0508741242
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0141666667
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.041669701
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|P-gp|Relative expression",
-          "Value": 0.017417973
         },
         {
           "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
           "Value": 0.0026602564103
         },
         {
-          "Path": "Organism|Heart|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.3179118843
-        },
-        {
-          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0008253968254
-        },
-        {
-          "Path": "Organism|Heart|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0574843621
-        },
-        {
-          "Path": "Organism|Heart|Intracellular|P-gp|Relative expression",
-          "Value": 0.0419198106
-        },
-        {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
           "Value": 5.7051282051E-05
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0158938619
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0249619939
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|P-gp|Relative expression",
-          "Value": 0.7092198582
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
           "Value": 0.00010384615385
         },
         {
-          "Path": "Organism|LargeIntestine|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
-        },
-        {
-          "Path": "Organism|LargeIntestine|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0081029350428
-        },
-        {
-          "Path": "Organism|LargeIntestine|Intracellular|P-gp|Relative expression",
-          "Value": 0.1108416465
-        },
-        {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
           "Value": 0.00010384615385
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0081029350428
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
           "Value": 0.00010384615385
         },
         {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0081029350428
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
-        },
-        {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
           "Value": 0.00010384615385
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0081029350428
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
           "Value": 0.00010384615385
         },
         {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0081029350428
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
-        },
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
           "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
           "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0223784807
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B3|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|P-gp|Relative expression",
-          "Value": 0.1916810428
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
           "Value": 1.0
         },
         {
-          "Path": "Organism|Liver|Periportal|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0223784807
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B3|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|P-gp|Relative expression",
-          "Value": 0.1916810428
-        },
-        {
           "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
           "Value": 0.0269230769
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0272345453
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0227975502
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|P-gp|Relative expression",
-          "Value": 0.0657549316
         },
         {
           "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
           "Value": 0.00020833333333
         },
         {
-          "Path": "Organism|Muscle|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.7034193524
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00064682539683
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0151497833
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|P-gp|Relative expression",
-          "Value": 0.0128342959
-        },
-        {
           "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
           "Value": 0.1474358974
-        },
-        {
-          "Path": "Organism|Pancreas|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0073903254795
-        },
-        {
-          "Path": "Organism|Pancreas|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0094097200792
-        },
-        {
-          "Path": "Organism|Pancreas|Intracellular|P-gp|Relative expression",
-          "Value": 0.0142510689
-        },
-        {
-          "Path": "Organism|Skin|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0389467988
-        },
-        {
-          "Path": "Organism|Skin|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0107729681
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
           "Value": 0.2544871795
         },
         {
-          "Path": "Organism|SmallIntestine|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0194716112
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|P-gp|Relative expression",
-          "Value": 0.2808543974
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
           "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0194716112
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
           "Value": 0.2544871795
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0194716112
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
           "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0194716112
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
           "Value": 0.2544871795
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0194716112
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
           "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0194716112
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
         },
         {
           "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
           "Value": 0.00037115384615
         },
         {
-          "Path": "Organism|Spleen|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0103243118
+          "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
+          "Value": 0.0775641026
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "P-gp",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Parameters": [
+        {
+          "Path": "Organism|Bone|Intracellular|P-gp|Relative expression",
+          "Value": 0.0242518189
         },
         {
-          "Path": "Organism|Spleen|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0113959291
+          "Path": "Organism|Brain|Intracellular|P-gp|Relative expression",
+          "Value": 0.07608904
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|P-gp|Relative expression",
+          "Value": 0.017417973
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|P-gp|Relative expression",
+          "Value": 0.0419198106
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|P-gp|Relative expression",
+          "Value": 0.7092198582
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|P-gp|Relative expression",
+          "Value": 0.1108416465
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|P-gp|Relative expression",
+          "Value": 0.3971631206
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|P-gp|Relative expression",
+          "Value": 0.3971631206
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|P-gp|Relative expression",
+          "Value": 0.3971631206
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|P-gp|Relative expression",
+          "Value": 0.3971631206
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|P-gp|Relative expression",
+          "Value": 0.1916810428
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|P-gp|Relative expression",
+          "Value": 0.1916810428
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|P-gp|Relative expression",
+          "Value": 0.0657549316
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|P-gp|Relative expression",
+          "Value": 0.0128342959
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|P-gp|Relative expression",
+          "Value": 0.0142510689
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|P-gp|Relative expression",
+          "Value": 0.2808543974
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
         },
         {
           "Path": "Organism|Spleen|Intracellular|P-gp|Relative expression",
           "Value": 0.0742555691
-        },
-        {
-          "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
-          "Value": 0.0775641026
-        },
-        {
-          "Path": "Organism|Stomach|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0309435884
-        },
-        {
-          "Path": "Organism|Stomach|Intracellular|OATP1B3|Relative expression",
-          "Value": 0.0102007599
         },
         {
           "Path": "Organism|Stomach|Intracellular|P-gp|Relative expression",
@@ -585,700 +320,997 @@
           "Unit": "h"
         }
       ],
-      "Molecules": [
+      "TransportType": "Efflux",
+      "Expression": [
         {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
+          "Name": "Bone",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainInterstitialToPlasma",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainTissueToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "EffluxBloodCellsToPlasma"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "EffluxInterstitialToPlasma"
+        }
+      ]
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B1",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Parameters": [
+        {
+          "Path": "OATP1B1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00014166666667
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0141666667
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0008253968254
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
+          "Value": 4.0079365079E-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00064682539683
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B3",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Parameters": [
+        {
+          "Path": "OATP1B3|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "OATP1B3|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OATP1B3|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0326065214
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.026415244
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.041669701
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0574843621
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0249619939
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0081029350428
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0081029350428
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0081029350428
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0081029350428
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0081029350428
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B3|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B3|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0227975502
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0151497833
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0094097200792
+        },
+        {
+          "Path": "Organism|Skin|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0107729681
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0194716112
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0194716112
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0194716112
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0194716112
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0194716112
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0194716112
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0113959291
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|OATP1B3|Relative expression",
+          "Value": 0.0102007599
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    },
+    {
+      "Type": "OtherProtein",
+      "Species": "Human",
+      "Molecule": "ATP1A2",
+      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Parameters": [
+        {
+          "Path": "ATP1A2|Reference concentration",
+          "Value": 0.39140774,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
           }
         },
         {
-          "Name": "AADAC",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+          "Path": "ATP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
         },
         {
-          "Name": "P-gp",
-          "Type": "Transporter",
-          "TransportType": "Efflux",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "EffluxBrainInterstitialToPlasma",
-              "CompartmentName": "Plasma"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "EffluxBrainTissueToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Fat",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Gonads",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Heart",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "ExcretionKidney",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Stomach",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "SmallIntestine",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LargeIntestine",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Lung",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Muscle",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pancreas",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Skin",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Spleen",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "BloodCells",
-              "TransportDirection": "EffluxBloodCellsToPlasma"
-            },
-            {
-              "Name": "VascularEndothelium",
-              "TransportDirection": "EffluxInterstitialToPlasma"
-            }
-          ]
+          "Path": "ATP1A2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
         },
         {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainPlasmaToInterstitial",
-              "CompartmentName": "Plasma"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainInterstitialToTissue",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Fat",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Gonads",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Heart",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "ExcretionKidney",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Stomach",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "SmallIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LargeIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Lung",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Muscle",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pancreas",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Skin",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Spleen",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "BloodCells",
-              "TransportDirection": "InfluxPlasmaToBloodCells"
-            },
-            {
-              "Name": "VascularEndothelium",
-              "TransportDirection": "InfluxPlasmaToInterstitial"
-            }
-          ]
+          "Path": "Organism|Bone|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0062154033171
         },
         {
-          "Name": "OATP1B3",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainPlasmaToInterstitial",
-              "CompartmentName": "Plasma"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainInterstitialToTissue",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Fat",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Gonads",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Heart",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "ExcretionKidney",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Stomach",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "SmallIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LargeIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Lung",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Muscle",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pancreas",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Skin",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Spleen",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "BloodCells",
-              "TransportDirection": "InfluxPlasmaToBloodCells"
-            },
-            {
-              "Name": "VascularEndothelium",
-              "TransportDirection": "InfluxPlasmaToInterstitial"
-            }
-          ]
+          "Path": "Organism|Brain|Intracellular|ATP1A2|Relative expression",
+          "Value": 1.0
         },
         {
-          "Name": "ATP1A2",
-          "Type": "OtherProtein",
-          "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
+          "Path": "Organism|Gonads|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0508741242
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.3179118843
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0158938619
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0223784807
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0223784807
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0272345453
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.7034193524
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0073903254795
+        },
+        {
+          "Path": "Organism|Skin|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0389467988
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0103243118
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0309435884
         }
+      ],
+      "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "European (P-gp modified, CYP3A4 36 h)",
+      "Seed": 1745497687,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP3A4|Human|European (P-gp modified, CYP3A4 36 h)",
+        "AADAC|Human|European (P-gp modified, CYP3A4 36 h)",
+        "P-gp|Human|European (P-gp modified, CYP3A4 36 h)",
+        "OATP1B1|Human|European (P-gp modified, CYP3A4 36 h)",
+        "OATP1B3|Human|European (P-gp modified, CYP3A4 36 h)",
+        "ATP1A2|Human|European (P-gp modified, CYP3A4 36 h)"
       ]
     }
   ],
@@ -2106,11 +2138,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin iv, Chu1992, 250 mg, 0.75 h|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 45.0,
-          "Unit": "min"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -2125,6 +2152,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin iv, Chu1992, 250 mg, 0.75 h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 45.0,
+          "Unit": "min"
         }
       ],
       "OutputSelections": [
@@ -2209,6 +2241,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin iv, Chu 1992, 250 mg, 0.75 h\n2020-04-01 17:08"
         },
         {
@@ -2259,6 +2308,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin iv, Chu 1992, 250 mg, 0.75 h\n2020-04-01 17:10"
         }
       ],
@@ -2308,41 +2374,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -2357,6 +2388,41 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -2447,6 +2513,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d\n2020-04-01 17:09"
         },
         {
@@ -2501,6 +2584,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d\n2020-04-01 17:11"
         }
       ],
@@ -2550,11 +2650,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1992, 100mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -2569,6 +2664,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1992, 100mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -2659,6 +2759,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 100 mg\n2020-04-01 17:09"
         },
         {
@@ -2709,6 +2826,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 100 mg\n2020-04-01 17:11"
         }
       ],
@@ -2758,11 +2892,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1992, 1200mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -2777,6 +2906,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1992, 1200mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -2867,6 +3001,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 1200 mg\n2020-04-01 17:09"
         },
         {
@@ -2917,6 +3068,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 1200 mg\n2020-04-01 17:11"
         }
       ],
@@ -2966,11 +3134,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1992, 200mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -2985,6 +3148,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1992, 200mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -3075,6 +3243,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 200 mg\n2020-04-01 17:10"
         },
         {
@@ -3125,6 +3310,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 200 mg\n2020-04-01 17:11"
         }
       ],
@@ -3174,11 +3376,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1992, 400mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -3193,6 +3390,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1992, 400mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -3283,6 +3485,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 400 mg\n2020-04-01 17:10"
         },
         {
@@ -3333,6 +3552,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 400 mg\n2020-04-01 17:12"
         }
       ],
@@ -3382,11 +3618,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1992, 600mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -3401,6 +3632,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1992, 600mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -3491,6 +3727,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 600 mg\n2020-04-01 17:12"
         },
         {
@@ -3541,6 +3794,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 600 mg\n2020-04-01 17:12"
         }
       ],
@@ -3590,11 +3860,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1992, 800mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -3609,6 +3874,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1992, 800mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -3699,6 +3969,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 800 mg\n2020-04-01 17:13"
         },
         {
@@ -3749,6 +4036,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 800 mg\n2020-04-01 17:13"
         }
       ],
@@ -3798,11 +4102,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -3817,6 +4116,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -3907,6 +4211,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg\n2020-04-01 17:13"
         },
         {
@@ -3957,6 +4278,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg\n2020-04-01 17:13"
         }
       ],
@@ -4006,41 +4344,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -4055,6 +4358,41 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -4145,6 +4483,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg, MD, 3.5 d\n2020-04-01 17:15"
         },
         {
@@ -4199,6 +4554,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg, MD, 3.5 d\n2020-04-01 17:15"
         }
       ],
@@ -4248,11 +4620,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -4267,6 +4634,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -4357,6 +4729,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg\n2020-04-01 17:16"
         },
         {
@@ -4407,6 +4796,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg\n2020-04-01 17:16"
         }
       ],
@@ -4456,41 +4862,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -4505,6 +4876,41 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -4595,6 +5001,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg, MD, 3.5 d\n2020-04-01 17:16"
         },
         {
@@ -4649,6 +5072,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg, MD, 3.5 d\n2020-04-01 17:16"
         }
       ],
@@ -4698,11 +5138,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 250mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -4717,6 +5152,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 250mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -4807,6 +5247,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg\n2020-04-01 17:17"
         },
         {
@@ -4857,6 +5314,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg\n2020-04-01 17:17"
         }
       ],
@@ -4906,51 +5380,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -4965,6 +5394,51 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -5055,6 +5529,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg, MD, 5 d\n2020-04-01 17:17"
         },
         {
@@ -5109,6 +5600,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg, MD, 5 d\n2020-04-01 17:17"
         }
       ],
@@ -5158,11 +5666,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Chu 1993, 500mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -5177,6 +5680,11 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Chu 1993, 500mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -5267,6 +5775,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg\n2020-04-01 17:18"
         },
         {
@@ -5317,6 +5842,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg\n2020-04-01 17:18"
         }
       ],
@@ -5366,31 +5908,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -5405,6 +5922,31 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -5495,6 +6037,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg, MD, 5 d\n2020-04-01 17:21"
         },
         {
@@ -5549,6 +6108,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg, MD, 5 d\n2020-04-01 17:21"
         }
       ],
@@ -5598,21 +6174,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "Value": 1.04E-06,
           "Unit": "dm/min",
@@ -5627,6 +6188,21 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Events|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
@@ -5717,6 +6293,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d\n2020-04-01 17:22"
         },
         {
@@ -5771,6 +6364,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d\n2020-04-01 17:22"
         }
       ],
@@ -5794,45 +6404,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Abduljalil 2009, 500 mg po MD.xlsx.Abduljalil 2009, 500 mg po MD"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Abduljalil 2009, 500 mg po MD.xlsx.Abduljalil 2009, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Abduljalil 2009, 500 mg po MD"
+          "Value": "Abduljalil 2009, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Abduljalil 2009, 500 mg po MD"
+          "Value": "Abduljalil 2009, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "[μmol/L] [µmol/l]",
           "QuantityInfo": {
-            "Name": "[μmol/L] [µmol/l]",
             "Path": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|[μmol/L] [µmol/l]"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:11:38.7847055+01:00",
-            "Source": "Abduljalil 2009, 500 mg po MD.Abduljalil 2009, 500 mg po MD.[μmol/L] [µmol/l]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -6268,15 +6882,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Abduljalil 2009, 500 mg po MD|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:11:38.7847055+01:00",
-          "Source": "Abduljalil 2009, 500 mg po MD.Abduljalil 2009, 500 mg po MD.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.330558,
@@ -6713,45 +7324,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1991, 250 mg iv.xlsx.Chu 1991, 250 mg iv"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1991, 250 mg iv.xlsx.Chu 1991, 250 mg iv",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1991, 250 mg iv"
+          "Value": "Chu 1991, 250 mg iv",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1991, 250 mg iv"
+          "Value": "Chu 1991, 250 mg iv",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "[μmol/L] [µmol/l]",
           "QuantityInfo": {
-            "Name": "[μmol/L] [µmol/l]",
             "Path": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|[μmol/L] [µmol/l]"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:12:01.9036395+01:00",
-            "Source": "Chu 1991, 250 mg iv.Chu 1991, 250 mg iv.[μmol/L] [µmol/l]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -6774,15 +7389,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1991, 250 mg iv|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:12:01.9036395+01:00",
-          "Source": "Chu 1991, 250 mg iv.Chu 1991, 250 mg iv.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.363967,
@@ -6806,31 +7418,38 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 100 mg po.xlsx.Chu 1992, 100 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 100 mg po.xlsx.Chu 1992, 100 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1992, 100 mg po"
+          "Value": "Chu 1992, 100 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1992, 100 mg po"
+          "Value": "Chu 1992, 100 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6840,14 +7459,11 @@
             {
               "Name": "SD  ",
               "QuantityInfo": {
-                "Name": "SD  ",
                 "Path": "Chu 1992, 100 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|SD  "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-11-06T14:15:06.4037293+01:00",
-                "Source": "Chu 1992, 100 mg po.Chu 1992, 100 mg po.SD  [µg/ml]",
                 "MolWeight": 747.9534
               },
               "Values": [
@@ -6866,14 +7482,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1992, 100 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:15:06.4037293+01:00",
-            "Source": "Chu 1992, 100 mg po.Chu 1992, 100 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -6894,15 +7507,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1992, 100 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:15:06.4037293+01:00",
-          "Source": "Chu 1992, 100 mg po.Chu 1992, 100 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.511901,
@@ -6924,31 +7534,38 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 1200 mg po.xlsx.Chu 1992, 1200 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 1200 mg po.xlsx.Chu 1992, 1200 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1992, 1200 mg po"
+          "Value": "Chu 1992, 1200 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1992, 1200 mg po"
+          "Value": "Chu 1992, 1200 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6958,14 +7575,11 @@
             {
               "Name": "SD  ",
               "QuantityInfo": {
-                "Name": "SD  ",
                 "Path": "Chu 1992, 1200 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|SD  "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-11-06T14:16:02.779281+01:00",
-                "Source": "Chu 1992, 1200 mg po.Chu 1992, 1200 mg po.SD  [µg/ml]",
                 "MolWeight": 747.9534
               },
               "Values": [
@@ -6986,14 +7600,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1992, 1200 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:16:02.779281+01:00",
-            "Source": "Chu 1992, 1200 mg po.Chu 1992, 1200 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7016,15 +7627,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1992, 1200 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:16:02.779281+01:00",
-          "Source": "Chu 1992, 1200 mg po.Chu 1992, 1200 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.470711023,
@@ -7048,31 +7656,38 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 200 mg po.xlsx.Chu 1992, 200 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 200 mg po.xlsx.Chu 1992, 200 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1992, 200 mg po"
+          "Value": "Chu 1992, 200 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1992, 200 mg po"
+          "Value": "Chu 1992, 200 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7082,14 +7697,11 @@
             {
               "Name": "SD  ",
               "QuantityInfo": {
-                "Name": "SD  ",
                 "Path": "Chu 1992, 200 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|SD  "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-11-06T14:16:25.2147123+01:00",
-                "Source": "Chu 1992, 200 mg po.Chu 1992, 200 mg po.SD  [µg/ml]",
                 "MolWeight": 747.9534
               },
               "Values": [
@@ -7109,14 +7721,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1992, 200 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:16:25.2147123+01:00",
-            "Source": "Chu 1992, 200 mg po.Chu 1992, 200 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7138,15 +7747,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1992, 200 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:16:25.2147123+01:00",
-          "Source": "Chu 1992, 200 mg po.Chu 1992, 200 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.41841,
@@ -7169,31 +7775,38 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 400 mg po.xlsx.Chu 1992, 400 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 400 mg po.xlsx.Chu 1992, 400 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1992, 400 mg po"
+          "Value": "Chu 1992, 400 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1992, 400 mg po"
+          "Value": "Chu 1992, 400 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7203,14 +7816,11 @@
             {
               "Name": "SD  ",
               "QuantityInfo": {
-                "Name": "SD  ",
                 "Path": "Chu 1992, 400 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|SD  "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-11-06T14:17:12.2485502+01:00",
-                "Source": "Chu 1992, 400 mg po.Chu 1992, 400 mg po.SD  [µg/ml]",
                 "MolWeight": 747.9534
               },
               "Values": [
@@ -7231,14 +7841,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1992, 400 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:17:12.2485502+01:00",
-            "Source": "Chu 1992, 400 mg po.Chu 1992, 400 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7261,15 +7868,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1992, 400 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:17:12.2485502+01:00",
-          "Source": "Chu 1992, 400 mg po.Chu 1992, 400 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.537623048,
@@ -7293,31 +7897,38 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 600 mg po.xlsx.Chu 1992, 600 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 600 mg po.xlsx.Chu 1992, 600 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1992, 600 mg po"
+          "Value": "Chu 1992, 600 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1992, 600 mg po"
+          "Value": "Chu 1992, 600 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7327,14 +7938,11 @@
             {
               "Name": "SD  ",
               "QuantityInfo": {
-                "Name": "SD  ",
                 "Path": "Chu 1992, 600 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|SD  "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-11-06T14:17:29.853382+01:00",
-                "Source": "Chu 1992, 600 mg po.Chu 1992, 600 mg po.SD  [µg/ml]",
                 "MolWeight": 747.9534
               },
               "Values": [
@@ -7355,14 +7963,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1992, 600 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:17:29.853382+01:00",
-            "Source": "Chu 1992, 600 mg po.Chu 1992, 600 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7385,15 +7990,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1992, 600 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:17:29.853382+01:00",
-          "Source": "Chu 1992, 600 mg po.Chu 1992, 600 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.470711023,
@@ -7417,31 +8019,38 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 800 mg po.xlsx.Chu 1992, 800 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1992, 800 mg po.xlsx.Chu 1992, 800 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1992, 800 mg po"
+          "Value": "Chu 1992, 800 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1992, 800 mg po"
+          "Value": "Chu 1992, 800 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7451,14 +8060,11 @@
             {
               "Name": "SD  ",
               "QuantityInfo": {
-                "Name": "SD  ",
                 "Path": "Chu 1992, 800 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|SD  "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-11-06T14:17:48.3835664+01:00",
-                "Source": "Chu 1992, 800 mg po.Chu 1992, 800 mg po.SD  [µg/ml]",
                 "MolWeight": 747.9534
               },
               "Values": [
@@ -7479,14 +8085,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1992, 800 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:17:48.3835664+01:00",
-            "Source": "Chu 1992, 800 mg po.Chu 1992, 800 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7509,15 +8112,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1992, 800 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:17:48.3835664+01:00",
-          "Source": "Chu 1992, 800 mg po.Chu 1992, 800 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.582936,
@@ -7541,45 +8141,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1993, 250 mg po.xlsx.Chu 1993, 250 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1993, 250 mg po.xlsx.Chu 1993, 250 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1993, 250 mg po"
+          "Value": "Chu 1993, 250 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1993, 250 mg po"
+          "Value": "Chu 1993, 250 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Concentration  ",
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1993, 250 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:18:08.9103214+01:00",
-            "Source": "Chu 1993, 250 mg po.Chu 1993, 250 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7602,15 +8206,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1993, 250 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:18:08.9103214+01:00",
-          "Source": "Chu 1993, 250 mg po.Chu 1993, 250 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.296394,
@@ -7634,45 +8235,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1993, 250 mg po MD.xlsx.Chu 1993, 250 mg po MD"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1993, 250 mg po MD.xlsx.Chu 1993, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1993, 250 mg po MD"
+          "Value": "Chu 1993, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1993, 250 mg po MD"
+          "Value": "Chu 1993, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Concentration  ",
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1993, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:18:25.622684+01:00",
-            "Source": "Chu 1993, 250 mg po MD.Chu 1993, 250 mg po MD.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7695,15 +8300,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1993, 250 mg po MD|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:18:25.622684+01:00",
-          "Source": "Chu 1993, 250 mg po MD.Chu 1993, 250 mg po MD.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           72.0046158,
@@ -7727,45 +8329,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1993, 500 mg po.xlsx.Chu 1993, 500 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1993, 500 mg po.xlsx.Chu 1993, 500 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1993, 500 mg po"
+          "Value": "Chu 1993, 500 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1993, 500 mg po"
+          "Value": "Chu 1993, 500 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Concentration  ",
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1993, 500 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:19:20.155656+01:00",
-            "Source": "Chu 1993, 500 mg po.Chu 1993, 500 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7789,15 +8395,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1993, 500 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:19:20.155656+01:00",
-          "Source": "Chu 1993, 500 mg po.Chu 1993, 500 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.488694,
@@ -7822,45 +8425,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1993, 500 mg po MD.xlsx.Chu 1993, 500 mg po MD"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Chu 1993, 500 mg po MD.xlsx.Chu 1993, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Chu 1993, 500 mg po MD"
+          "Value": "Chu 1993, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Chu 1993, 500 mg po MD"
+          "Value": "Chu 1993, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Concentration  ",
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Chu 1993, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:19:42.3095249+01:00",
-            "Source": "Chu 1993, 500 mg po MD.Chu 1993, 500 mg po MD.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7883,15 +8490,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Chu 1993, 500 mg po MD|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:19:42.3095249+01:00",
-          "Source": "Chu 1993, 500 mg po MD.Chu 1993, 500 mg po MD.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           71.9941,
@@ -7915,45 +8519,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Kees 1995, 250 mg po.xlsx.Kees 1995, 250 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Kees 1995, 250 mg po.xlsx.Kees 1995, 250 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Kees 1995, 250 mg po"
+          "Value": "Kees 1995, 250 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Kees 1995, 250 mg po"
+          "Value": "Kees 1995, 250 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Concentration  ",
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Kees 1995, 250 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:19:59.6427067+01:00",
-            "Source": "Kees 1995, 250 mg po.Kees 1995, 250 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -7976,15 +8584,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Kees 1995, 250 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:19:59.6427067+01:00",
-          "Source": "Kees 1995, 250 mg po.Kees 1995, 250 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.225221,
@@ -8008,45 +8613,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Kees 1995, 250 mg po MD.xlsx.Kees 1995, 250 mg po MD"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Kees 1995, 250 mg po MD.xlsx.Kees 1995, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Kees 1995, 250 mg po MD"
+          "Value": "Kees 1995, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Kees 1995, 250 mg po MD"
+          "Value": "Kees 1995, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Concentration  ",
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Kees 1995, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:20:15.5683939+01:00",
-            "Source": "Kees 1995, 250 mg po MD.Kees 1995, 250 mg po MD.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -8084,15 +8693,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Kees 1995, 250 mg po MD|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:20:15.5683939+01:00",
-          "Source": "Kees 1995, 250 mg po MD.Kees 1995, 250 mg po MD.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.225221,
@@ -8131,45 +8737,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Kees 1995, 500 mg po.xlsx.Kees 1995, 500 mg po"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Kees 1995, 500 mg po.xlsx.Kees 1995, 500 mg po",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Kees 1995, 500 mg po"
+          "Value": "Kees 1995, 500 mg po",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Kees 1995, 500 mg po"
+          "Value": "Kees 1995, 500 mg po",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Concentration  ",
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Kees 1995, 500 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:20:39.7844861+01:00",
-            "Source": "Kees 1995, 500 mg po.Kees 1995, 500 mg po.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -8194,15 +8804,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Kees 1995, 500 mg po|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:20:39.7844861+01:00",
-          "Source": "Kees 1995, 500 mg po.Kees 1995, 500 mg po.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.230911,
@@ -8228,45 +8835,49 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Kees 1995, 500 mg po MD.xlsx.Kees 1995, 500 mg po MD"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Kees 1995, 500 mg po MD.xlsx.Kees 1995, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Kees 1995, 500 mg po MD"
+          "Value": "Kees 1995, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Kees 1995, 500 mg po MD"
+          "Value": "Kees 1995, 500 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Concentration  ",
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Kees 1995, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:20:58.2974646+01:00",
-            "Source": "Kees 1995, 500 mg po MD.Kees 1995, 500 mg po MD.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -8307,15 +8918,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Kees 1995, 500 mg po MD|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:20:58.2974646+01:00",
-          "Source": "Kees 1995, 500 mg po MD.Kees 1995, 500 mg po MD.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.230911,
@@ -8357,31 +8965,38 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Rengelsh. 2003, 250 mg po MD.xlsx.Rengelsh. 2003, 250 mg po MD"
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Rengelsh. 2003, 250 mg po MD.xlsx.Rengelsh. 2003, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "Rengelsh. 2003, 250 mg po MD"
+          "Value": "Rengelsh. 2003, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Rengelsh. 2003, 250 mg po MD"
+          "Value": "Rengelsh. 2003, 250 mg po MD",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Clarithromycin test old"
+          "Value": "Clarithromycin test old",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8391,14 +9006,11 @@
             {
               "Name": "SD  ",
               "QuantityInfo": {
-                "Name": "SD  ",
                 "Path": "Rengelsh. 2003, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|SD  "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-11-06T14:21:54.2400035+01:00",
-                "Source": "Rengelsh. 2003, 250 mg po MD.Rengelsh. 2003, 250 mg po MD.SD  [µg/l]",
                 "MolWeight": 747.9534
               },
               "Values": [
@@ -8427,14 +9039,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Concentration  ",
             "Path": "Rengelsh. 2003, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-11-06T14:21:54.2400035+01:00",
-            "Source": "Rengelsh. 2003, 250 mg po MD.Rengelsh. 2003, 250 mg po MD.Concentration  [µg/ml]",
             "MolWeight": 747.9534
           },
           "Values": [
@@ -8465,15 +9074,12 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Name": "Time  ",
           "Path": "Rengelsh. 2003, 250 mg po MD|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-11-06T14:21:54.2400035+01:00",
-          "Source": "Rengelsh. 2003, 250 mg po MD.Rengelsh. 2003, 250 mg po MD.Time  [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           23.4955845,
