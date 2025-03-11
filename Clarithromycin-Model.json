@@ -5,7 +5,7 @@
       "Type": "Enzyme",
       "Species": "Human",
       "Molecule": "CYP3A4",
-      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Category": "Healthy",
       "Parameters": [
         {
           "Path": "CYP3A4|Reference concentration",
@@ -83,7 +83,7 @@
       "Type": "Enzyme",
       "Species": "Human",
       "Molecule": "AADAC",
-      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Category": "Healthy",
       "Parameters": [
         {
           "Path": "AADAC|Reference concentration",
@@ -207,7 +207,7 @@
       "Type": "Transporter",
       "Species": "Human",
       "Molecule": "P-gp",
-      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Category": "Healthy",
       "Parameters": [
         {
           "Path": "Organism|Bone|Intracellular|P-gp|Relative expression",
@@ -546,7 +546,7 @@
       "Type": "Transporter",
       "Species": "Human",
       "Molecule": "OATP1B1",
-      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Category": "Healthy",
       "Parameters": [
         {
           "Path": "OATP1B1|Reference concentration",
@@ -818,7 +818,7 @@
       "Type": "Transporter",
       "Species": "Human",
       "Molecule": "OATP1B3",
-      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Category": "Healthy",
       "Parameters": [
         {
           "Path": "OATP1B3|Reference concentration",
@@ -1158,7 +1158,7 @@
       "Type": "OtherProtein",
       "Species": "Human",
       "Molecule": "ATP1A2",
-      "Category": "European (P-gp modified, CYP3A4 36 h)",
+      "Category": "Healthy",
       "Parameters": [
         {
           "Path": "ATP1A2|Reference concentration",
@@ -1305,12 +1305,12 @@
         }
       ],
       "ExpressionProfiles": [
-        "CYP3A4|Human|European (P-gp modified, CYP3A4 36 h)",
-        "AADAC|Human|European (P-gp modified, CYP3A4 36 h)",
-        "P-gp|Human|European (P-gp modified, CYP3A4 36 h)",
-        "OATP1B1|Human|European (P-gp modified, CYP3A4 36 h)",
-        "OATP1B3|Human|European (P-gp modified, CYP3A4 36 h)",
-        "ATP1A2|Human|European (P-gp modified, CYP3A4 36 h)"
+        "CYP3A4|Human|Healthy",
+        "AADAC|Human|Healthy",
+        "P-gp|Human|Healthy",
+        "OATP1B1|Human|Healthy",
+        "OATP1B3|Human|Healthy",
+        "ATP1A2|Human|Healthy"
       ]
     }
   ],
@@ -2236,9 +2236,9 @@
               }
             },
             {
-              "Name": "Chu 1991, 250 mg iv-Clarithromycin-Peripheral Venous Blood-Plasma-[μmol/L] [µmol/l]",
+              "Name": "Chu 1991, 250 mg iv-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Chu 1991, 250 mg iv|Time  ",
-              "Y": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|[μmol/L] [µmol/l]",
+              "Y": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
@@ -2303,9 +2303,9 @@
               }
             },
             {
-              "Name": "Chu 1991, 250 mg iv-Clarithromycin-Peripheral Venous Blood-Plasma-[μmol/L] [µmol/l]",
+              "Name": "Chu 1991, 250 mg iv-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Chu 1991, 250 mg iv|Time  ",
-              "Y": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|[μmol/L] [µmol/l]",
+              "Y": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
@@ -2515,9 +2515,9 @@
               }
             },
             {
-              "Name": "Abduljalil 2009, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-[μmol/L] [µmol/l]",
+              "Name": "Abduljalil 2009, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Abduljalil 2009, 500 mg po MD|Time  ",
-              "Y": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|[μmol/L] [µmol/l]",
+              "Y": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
@@ -2586,9 +2586,9 @@
               }
             },
             {
-              "Name": "Abduljalil 2009, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-[μmol/L] [µmol/l]",
+              "Name": "Abduljalil 2009, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Abduljalil 2009, 500 mg po MD|Time  ",
-              "Y": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|[μmol/L] [µmol/l]",
+              "Y": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2,
@@ -6559,9 +6559,9 @@
       ],
       "Columns": [
         {
-          "Name": "[μmol/L] [µmol/l]",
+          "Name": "Concentration",
           "QuantityInfo": {
-            "Path": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|[μmol/L] [µmol/l]"
+            "Path": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -7479,9 +7479,9 @@
       ],
       "Columns": [
         {
-          "Name": "[μmol/L] [µmol/l]",
+          "Name": "Concentration",
           "QuantityInfo": {
-            "Path": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|[μmol/L] [µmol/l]"
+            "Path": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration"
           },
           "DataInfo": {
             "Origin": "Observation",
