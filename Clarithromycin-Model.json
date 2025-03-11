@@ -2162,6 +2162,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1991, 250 mg iv"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -2428,6 +2435,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Abduljalil 2009, 500 mg po MD"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -2674,6 +2688,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1992, 100 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1992, 100 mg po"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -2915,6 +2936,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1992, 1200 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1992, 1200 mg po"
+        }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
@@ -3158,6 +3186,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1992, 200 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1992, 200 mg po"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -3399,6 +3434,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1992, 400 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1992, 400 mg po"
+        }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
@@ -3642,6 +3684,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1992, 600 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1992, 600 mg po"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -3884,6 +3933,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1992, 800 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1992, 800 mg po"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -4125,6 +4181,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1993, 250 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1993, 250 mg po"
+        }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
@@ -4398,6 +4461,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1993, 250 mg po MD"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -4643,6 +4713,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1993, 500 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1993, 500 mg po"
+        }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
@@ -4916,6 +4993,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Chu 1993, 500 mg po MD"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -5161,6 +5245,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Kees 1995, 250 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kees 1995, 250 mg po"
+        }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
@@ -5444,6 +5535,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kees 1995, 250 mg po MD"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -5689,6 +5787,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Kees 1995, 500 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kees 1995, 500 mg po"
+        }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
@@ -5952,6 +6057,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kees 1995, 500 mg po MD"
+        }
+      ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
@@ -6207,6 +6319,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rengelsh. 2003, 250 mg po MD"
+        }
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
