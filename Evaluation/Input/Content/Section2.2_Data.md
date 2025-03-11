@@ -55,5 +55,5 @@ The following studies were used for model verification (test data):
 | [Chu 1992a](#5-references)          | Healthy Subjects with oral administration of single doses ranging from 100 to 1200 mg |
 | [Kees 1995](#5-references)          | Healthy subjects with oral administration of 250 or 500 mg as single or multiple dose |
 | [Rengelshausen 2003](#5-references) | Oral administration of 250 mg twice a day for 1.5 days       |
-| [Abduljialil 2009](#5-references)   | Oral administration of 500 mg twice a day for 3.5 days       |
+| [Abduljalil 2009](#5-references)   | Oral administration of 500 mg twice a day for 3.5 days       |
 
