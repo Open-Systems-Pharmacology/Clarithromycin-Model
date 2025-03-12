@@ -18,7 +18,7 @@ A literature search was performed to collect available information on physiochem
 |                          | µmol/L   | 41.4                    | [Ito 2003](#5-references)       | Conc. for half-maximal inactivation measured in human liver microsomes for α-hydroxylation of midazolam |
 |                          | µmol/L   | 37.0                    | [Ito 2003](#5-references)       | Conc. for half-maximal inactivation measured in human liver microsomes for 4-hydroxylation of midazolam |
 |                          | µmol/L   | 5.49                    | [Mayhew 2000](#5-references)    | Conc. for half-maximal inactivation measured in human liver microsomes |
-| CYP3A4 k<sub>inact</sub> | 1/min    | 0.04                    | [Polasek 2006](#5-references),  | Maximum inactivation rate measured in recombinant CYP3A4     |
+| CYP3A4 k<sub>inact</sub> | 1/min    | 0.04                    | [Polasek 2006](#5-references)   | Maximum inactivation rate measured in recombinant CYP3A4     |
 |                          | 1/min    | 0.05                    | [Polasek 2006](#5-references)   | Maximum inactivation rate measured in human liver microsomes |
 |                          | 1/min    | 0.0423                  | [Ito 2003](#5-references)       | Maximum inactivation rate measured in human liver microsomes for α-hydroxylation of midazolam |
 |                          | 1/min    | 0.0459                  | [Ito 2003](#5-references)       | Maximum inactivation rate measured in human liver microsomes for 4-hydroxylation of midazolam |
